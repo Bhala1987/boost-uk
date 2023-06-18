@@ -8,11 +8,11 @@ const invalidEmail = "username@9829596636";
 
 const availablefixtures = [
   {
-    name: "HealthPlan£20",
+    name: "healthPlan£20",
     context: "Health Plan Cost £20",
   },
   {
-    name: "HealthPlan£60",
+    name: "healthPlan£60",
     context: "Health Plan Cost £60",
   },
 ];

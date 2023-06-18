@@ -1,0 +1,35 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Cypress Tests
+        uses: cypress-io/github-action@v4
+        with:
+          command: npm run tests:ci
+        continue-on-error: true
+          
+      - name: Uploading mochawesome cypress test report
+        uses: actions/upload-artifact@v2
+        with:
+          name: cypress-ki-test-mochawesome-report
+          path: cypress/reports/html
+          retention-days: 30

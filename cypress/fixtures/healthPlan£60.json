@@ -1,0 +1,15 @@
+{
+  "planCost": "£60",
+  "firstName": "Will",
+  "lastName": "Jones",
+  "age": 25,
+  "phone": "07999999999",
+  "email": "somerandomemail@domain.com",
+  "postcode": "w1w8ap",
+  "address": "Nchain, 30 Market Place, London, W1W 8AP",
+  "firstLine": "30 Market Place",
+  "emailMarketingPreference": 1,
+  "phoneMarketingPreference": 0,
+  "smsMarketingPreference": 0,
+  "postMarketingPreference": 1
+}

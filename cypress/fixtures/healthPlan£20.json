@@ -1,0 +1,15 @@
+{
+  "planCost": "£20",
+  "firstName": "Tania",
+  "lastName": "Mermaid",
+  "age": 51,
+  "phone": "447951461207",
+  "email": "validemail@elonmusk.mars",
+  "postcode": "AB101DH",
+  "address": "Apartment 4, Spireview II, 12 North Silver Street, Aberdeen, AB10 1DH",
+  "firstLine": "Apartment 4",
+  "emailMarketingPreference": 0,
+  "phoneMarketingPreference": 0,
+  "smsMarketingPreference": 1,
+  "postMarketingPreference": 1
+}
